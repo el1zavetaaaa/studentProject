@@ -1,4 +1,4 @@
-class thief{
+export class thief {
     health;
     indestructibility;
 
@@ -7,11 +7,11 @@ class thief{
         this.indestructibility = true;
     }
 
-    bowShot(){
+    bowShot() {
         this.health -= 25;
     }
 
-    runAway(){
+    runAway() {
         this.indestructibility = false;
     }
 }

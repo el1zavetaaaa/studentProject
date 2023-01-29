@@ -1,4 +1,4 @@
-class Magician {
+export class magician {
     health;
 
     constructor() {
@@ -6,11 +6,11 @@ class Magician {
         this.health = 80;
     }
 
-    fireBall(){
+    fireBall() {
         this.health -= 100;
     }
 
-    bewitch(){
+    bewitch() {
 
     }
 }
