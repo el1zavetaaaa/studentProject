@@ -6,11 +6,12 @@ export class warrior {
         this.health = 200;
     }
 
-    swordStrike() {
+    makeAction() {
+        console.log("Sword Strike");
         this.health -= 50;
     }
 
-    protection() {
-
+    useAbility() {
+        console.log("Protection");
     }
 }
