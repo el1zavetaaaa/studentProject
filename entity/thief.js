@@ -7,11 +7,13 @@ export class thief {
         this.indestructibility = true;
     }
 
-    bowShot() {
+    makeAction() {
+        console.log("BowShot");
         this.health -= 25;
     }
 
-    runAway() {
+    useAbility() {
+        console.log("Run Away");
         this.indestructibility = false;
     }
 }

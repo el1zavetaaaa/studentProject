@@ -6,11 +6,12 @@ export class magician {
         this.health = 80;
     }
 
-    fireBall() {
+    makeAction() {
+        console.log("FireBall");
         this.health -= 100;
     }
 
-    bewitch() {
-
+    useAbility() {
+        console.log("Bewitch");
     }
 }

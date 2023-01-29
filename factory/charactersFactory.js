@@ -1,13 +1,7 @@
-import {warrior} from "./warrior.js"
-import {thief} from "./thief.js"
-import {magician} from "./magician.js"
-
-export const characters = {
-    magician: String("magician"),
-    thief: String("thief"),
-    warrior: String("warrior")
-};
-Object.freeze(characters);
+import {warrior} from "../entity/warrior.js"
+import {thief} from "../entity/thief.js"
+import {magician} from "../entity/magician.js"
+import {characters} from "../entity/charatcers.js"
 
 export class charactersFactory {
     createCharacter(typeOfCharacter) {
