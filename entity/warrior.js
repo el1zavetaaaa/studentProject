@@ -1,4 +1,4 @@
-class Warrior {
+export class warrior {
     health;
 
 
@@ -6,11 +6,11 @@ class Warrior {
         this.health = 200;
     }
 
-    swordStrike(){
+    swordStrike() {
         this.health -= 50;
     }
 
-    protection(){
+    protection() {
 
     }
 }
